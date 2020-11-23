@@ -22,13 +22,15 @@ import {
 } from 'react-native';
 import MyApp from "./ui_js/navigation/MyApp";
 import StackNavigator from "./index3";
+import TabApp from "./ui_js/navigation/TabApp";
+import TabApp2 from "./ui_js/navigation/TabApp2";
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 // const SimpleApp = StackNavigator({
 //     Home: { screen: MyApp },
 // });
-AppRegistry.registerComponent(appName, () => MyApp);
+AppRegistry.registerComponent(appName, () => TabApp2);
 // Navigation.registerComponent('com.myApp.WelcomeScreen', () => App);
 // Navigation.events().registerAppLaunchedListener(() => {
 //        Navigation.setRoot({
