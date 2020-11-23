@@ -1,0 +1,11 @@
+React
+/Users/kome/Library/Android/sdk
+emulator -avd 8_Foldable_API_R
+react-native run-android
+
+ 1. Clear watchman watches: watchman watch-del-all
+ 2. Delete node_modules: rm -rf node_modules and run yarn install
+ 3. Reset Metro's cache: yarn start --reset-cache
+ 4. Remove the cache: rm -rf /tmp/metro-*
+A。npm config set strict-ssl false 
+B。yarn config set registry https://registry.npmjs.org --global
